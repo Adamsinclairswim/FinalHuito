@@ -1,0 +1,65 @@
+{
+  "porter": {
+    "name": "Porter College",
+    "description": "Known for its creative energy and ocean views.",
+    "image": "images/porter.jpg",
+    "x": 130,
+    "y": 910
+  },
+  "kresge": {
+    "name": "Kresge College",
+    "description": "Tree-lined and innovative, with an experimental architecture layout.",
+    "image": "images/kresge.jpg",
+    "x": 180,
+    "y": 650
+  },
+  "rcp": {
+    "name": "Rachel Carson College",
+    "description": "Focuses on sustainability and social justice.",
+    "image": "images/rcp.jpg",
+    "x": 270,
+    "y": 840
+  },
+  "quarry": {
+    "name": "Quarry Plaza",
+    "description": "Student hub with the bookstore, coffee, and transit stops.",
+    "image": "images/quarry.jpg",
+    "x": 360,
+    "y": 530
+  },
+  "science-hill": {
+    "name": "Science Hill",
+    "description": "UCSC's academic and research core.",
+    "image": "images/science-hill.jpg",
+    "x": 380,
+    "y": 600
+  },
+  "stevenson": {
+    "name": "Stevenson College",
+    "description": "Humanities-focused with historic bay views.",
+    "image": "images/stevenson.jpg",
+    "x": 400,
+    "y": 740
+  },
+  "cowell": {
+    "name": "Cowell College",
+    "description": "Classic liberal arts college with a signature dining hall.",
+    "image": "images/cowell.jpg",
+    "x": 480,
+    "y": 650
+  },
+  "hahn": {
+    "name": "Hahn Student Center",
+    "description": "Resource center and lounge for UCSC students.",
+    "image": "images/hahn.jpg",
+    "x": 410,
+    "y": 880
+  },
+  "crown": {
+    "name": "Crown College",
+    "description": "Tech-focused, with views over the canyon.",
+    "image": "images/crown.jpg",
+    "x": 520,
+    "y": 520
+  }
+}

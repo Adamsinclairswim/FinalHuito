@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UCSC Interactive Map</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="map.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>UCSC Interactive Campus Map</h1>
+  </header>
+
+  <main>
+    <div id="map-container">
+      <img src="images/campus-map.png" alt="UCSC Campus Map" id="campus-map">
+      <div id="player"></div>
+    </div>
+
+    <div id="controls">
+      <button id="up">↑</button><br>
+      <button id="left">←</button>
+      <button id="down">↓</button>
+      <button id="right">→</button>
+    </div>
+
+    <div id="info-panel">
+      <h2 id="location-name">Walk to a location</h2>
+      <img id="location-image" src="" alt="" style="display: none;">
+      <p id="location-description"></p>
+    </div>
+  </main>
+
+</body>
+</html>

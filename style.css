@@ -1,0 +1,136 @@
+/* GENERAL RESET & BASE STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f8fc;
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* HEADER */
+header {
+  background-color: #00274C;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+/* FOOTER (used on homepage if needed again) */
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #00274C;
+  color: white;
+}
+
+/* HOMEPAGE STYLES */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #eaf4ff, #ffffff);
+  text-align: center;
+}
+
+.centered {
+  max-width: 600px;
+  margin-top: 60px;
+}
+
+.slugline {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.explore-button {
+  padding: 15px 30px;
+  background-color: #005fa3;
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+  background-color: #00437c;
+}
+
+/* MAP PAGE LAYOUT */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+/* MAP IMAGE & PLAYER */
+#map-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#campus-map {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 12px;
+  border: 2px solid #ccc;
+}
+
+#player {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  z-index: 10;
+  transition: top 0.1s, left 0.1s;
+}
+
+/* CONTROLS */
+#controls {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#controls button {
+  padding: 10px 15px;
+  font-size: 18px;
+  margin: 5px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#controls button:hover {
+  background-color: #004a99;
+}
+
+/* INFO PANEL */
+#info-panel {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#info-panel img {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
