@@ -81,14 +81,14 @@ main {
 
 #campus-map {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;  /* smaller size */
   border-radius: 12px;
   border: 2px solid #ccc;
 }
 
 #player {
-  width: 20px;
-  height: 20px;
+  width: 16px;      /* smaller dot */
+  height: 16px;
   background-color: red;
   border-radius: 50%;
   position: absolute;
@@ -98,22 +98,8 @@ main {
   transition: top 0.1s, left 0.1s;
 }
 
-/* CONTROLS */
-#controls {
-  text-align: center;
-  margin-bottom: 30px;
-}
 
-#controls button {
-  padding: 10px 15px;
-  font-size: 18px;
-  margin: 5px;
-  background-color: #0066cc;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-}
+
 
 #controls button:hover {
   background-color: #004a99;

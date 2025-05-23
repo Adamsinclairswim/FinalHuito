@@ -27,11 +27,6 @@ function movePlayer(dx, dy) {
   updatePlayerPosition();
 }
 
-// Button events
-document.getElementById("up").addEventListener("click", () => movePlayer(0, -10));
-document.getElementById("down").addEventListener("click", () => movePlayer(0, 10));
-document.getElementById("left").addEventListener("click", () => movePlayer(-10, 0));
-document.getElementById("right").addEventListener("click", () => movePlayer(10, 0));
 
 // Keyboard events
 document.addEventListener("keydown", (e) => {
