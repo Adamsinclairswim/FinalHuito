@@ -5,16 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Explore UCSC</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="map.js" defer></script>
 </head>
-<body class="homepage">
+<body>
 
   <header>
     <h1>Explore UC Santa Cruz</h1>
   </header>
 
-  <main class="centered">
-    <p class="slugline">Take a digital walking tour of UCSC’s most iconic spots — from Porter to Science Hill. Walk around, click buttons, and discover the heart of campus.</p>
-    <a href="map.html" class="explore-button">Start Exploring</a>
+  <main>
+    <div id="map-container">
+      <img src="images/campus-map.jpg" id="campus-map" alt="UCSC Map">
+      <div id="player"></div>
+    </div>
+
+    <div id="info-panel">
+      <h2 id="location-name">Walk around the map</h2>
+      <img id="location-image" src="" alt="" style="display: none;">
+      <p id="location-description"></p>
+    </div>
   </main>
 
 </body>

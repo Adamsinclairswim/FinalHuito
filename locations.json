@@ -3,63 +3,84 @@
     "name": "Porter College",
     "description": "Known for its creative energy and ocean views.",
     "image": "images/porter.jpg",
-    "x": 130,
-    "y": 910
+    "x": 620,
+    "y": 1800
   },
   "kresge": {
     "name": "Kresge College",
-    "description": "Tree-lined and innovative, with an experimental architecture layout.",
+    "description": "Tree-lined and experimental in design.",
     "image": "images/kresge.jpg",
-    "x": 180,
-    "y": 650
+    "x": 680,
+    "y": 900
   },
   "rcp": {
     "name": "Rachel Carson College",
     "description": "Focuses on sustainability and social justice.",
     "image": "images/rcp.jpg",
-    "x": 270,
-    "y": 840
+    "x": 950,
+    "y": 2300
   },
-  "quarry": {
-    "name": "Quarry Plaza",
-    "description": "Student hub with the bookstore, coffee, and transit stops.",
-    "image": "images/quarry.jpg",
-    "x": 360,
-    "y": 530
+  "oakes": {
+    "name": "Oakes College",
+    "description": "Promotes diversity and social change.",
+    "image": "images/oakes.jpg",
+    "x": 1050,
+    "y": 2700
   },
-  "science-hill": {
-    "name": "Science Hill",
-    "description": "UCSC's academic and research core.",
-    "image": "images/science-hill.jpg",
-    "x": 380,
-    "y": 600
-  },
-  "stevenson": {
-    "name": "Stevenson College",
-    "description": "Humanities-focused with historic bay views.",
-    "image": "images/stevenson.jpg",
-    "x": 400,
-    "y": 740
-  },
-  "cowell": {
-    "name": "Cowell College",
-    "description": "Classic liberal arts college with a signature dining hall.",
-    "image": "images/cowell.jpg",
-    "x": 480,
-    "y": 650
-  },
-  "hahn": {
-    "name": "Hahn Student Center",
-    "description": "Resource center and lounge for UCSC students.",
-    "image": "images/hahn.jpg",
-    "x": 410,
-    "y": 880
+  "baskin": {
+    "name": "Baskin Engineering",
+    "description": "Tech-focused school with labs and robotics.",
+    "image": "images/baskin.jpg",
+    "x": 1950,
+    "y": 350
   },
   "crown": {
     "name": "Crown College",
-    "description": "Tech-focused, with views over the canyon.",
+    "description": "High up with views and a science emphasis.",
     "image": "images/crown.jpg",
-    "x": 520,
-    "y": 520
+    "x": 3500,
+    "y": 500
+  },
+  "merrill": {
+    "name": "Merrill College",
+    "description": "Known for its international perspective.",
+    "image": "images/merrill.jpg",
+    "x": 3400,
+    "y": 800
+  },
+  "cowell": {
+    "name": "Cowell College",
+    "description": "Classic liberal arts focus with redwoods all around.",
+    "image": "images/cowell.jpg",
+    "x": 3300,
+    "y": 1200
+  },
+  "stevenson": {
+    "name": "Stevenson College",
+    "description": "Focused on community and the humanities.",
+    "image": "images/stevenson.jpg",
+    "x": 3600,
+    "y": 1600
+  },
+  "quarry": {
+    "name": "Quarry Plaza",
+    "description": "The student activity center of campus.",
+    "image": "images/quarry.jpg",
+    "x": 2200,
+    "y": 1350
+  },
+  "hahn": {
+    "name": "Hahn Student Center",
+    "description": "The core of student life and resources.",
+    "image": "images/hahn.jpg",
+    "x": 1800,
+    "y": 1500
+  },
+  "science-hill": {
+    "name": "Science Hill",
+    "description": "Home to lectures, labs, and science departments.",
+    "image": "images/science-hill.jpg",
+    "x": 1600,
+    "y": 700
   }
 }
