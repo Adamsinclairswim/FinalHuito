@@ -1,7 +1,7 @@
 let playerX = 400;
 let playerY = 400;
 let locations = {};
-const proximity = 100;
+const proximity = 30;
 
 fetch("locations.json")
   .then(res => res.json())
@@ -30,20 +30,33 @@ function updatePlayerPosition() {
 }
 
 function checkProximity() {
-  let found = false;
+  const mapWidth = 4322;
+  const mapHeight = 3251;
+
+  if (playerX < 0 || playerX > mapWidth || playerY < 0 || playerY > mapHeight) {
+    $("#location-name").text("Walk around the map");
+    $("#location-image").hide();
+    $("#location-description").text("");
+    return;
+  }
+
+  let closest = null;
+  let closestDist = Infinity;
+
   for (const key in locations) {
     const loc = locations[key];
     const dx = playerX - loc.x;
     const dy = playerY - loc.y;
     const dist = Math.sqrt(dx * dx + dy * dy);
-    if (dist < proximity) {
-      showLocation(loc);
-      found = true;
-      break;
+    if (dist < proximity && dist < closestDist) {
+      closest = loc;
+      closestDist = dist;
     }
   }
 
-  if (!found) {
+  if (closest) {
+    showLocation(closest);
+  } else {
     $("#location-name").text("Walk around the map");
     $("#location-image").hide();
     $("#location-description").text("");
