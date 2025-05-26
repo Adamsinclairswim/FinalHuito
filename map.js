@@ -1,5 +1,5 @@
-let playerX = 2200;
-let playerY = 1350;
+let playerX = 400;
+let playerY = 400;
 let locations = {};
 const proximity = 100;
 
@@ -11,14 +11,18 @@ fetch("locations.json")
   });
 
 document.addEventListener("keydown", e => {
-  switch (e.key) {
-    case "ArrowUp": playerY -= 20; break;
-    case "ArrowDown": playerY += 20; break;
-    case "ArrowLeft": playerX -= 20; break;
-    case "ArrowRight": playerX += 20; break;
+  const keys = ["ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight"];
+  if (keys.includes(e.key)) {
+    e.preventDefault();
+    switch (e.key) {
+      case "ArrowUp": playerY -= 20; break;
+      case "ArrowDown": playerY += 20; break;
+      case "ArrowLeft": playerX -= 20; break;
+      case "ArrowRight": playerX += 20; break;
+    }
+    updatePlayerPosition();
   }
-  updatePlayerPosition();
-});
+}, { passive: false });
 
 function updatePlayerPosition() {
   $("#player").css({ top: playerY + "px", left: playerX + "px" });
