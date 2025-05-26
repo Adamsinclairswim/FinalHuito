@@ -1,14 +1,93 @@
 {
-  "porter": { "name": "Porter College", "description": "Known for its creative energy and ocean views.", "image": "images/porter.jpg", "x": 620, "y": 1800 },
-  "kresge": { "name": "Kresge College", "description": "Tree-lined and experimental in design.", "image": "images/kresge.jpg", "x": 680, "y": 900 },
-  "rcp": { "name": "Rachel Carson College", "description": "Focuses on sustainability and social justice.", "image": "images/rcp.jpg", "x": 950, "y": 2300 },
-  "oakes": { "name": "Oakes College", "description": "Promotes diversity and social change.", "image": "images/oakes.jpg", "x": 1050, "y": 2700 },
-  "baskin": { "name": "Baskin Engineering", "description": "Tech-focused school with labs and robotics.", "image": "images/baskin.jpg", "x": 1950, "y": 350 },
-  "crown": { "name": "Crown College", "description": "High up with views and a science emphasis.", "image": "images/crown.jpg", "x": 3500, "y": 500 },
-  "merrill": { "name": "Merrill College", "description": "Known for its international perspective.", "image": "images/merrill.jpg", "x": 3400, "y": 800 },
-  "cowell": { "name": "Cowell College", "description": "Classic liberal arts focus with redwoods all around.", "image": "images/cowell.jpg", "x": 3300, "y": 1200 },
-  "stevenson": { "name": "Stevenson College", "description": "Focused on community and the humanities.", "image": "images/stevenson.jpg", "x": 3600, "y": 1600 },
-  "quarry": { "name": "Quarry Plaza", "description": "The student activity center of campus.", "image": "images/quarry.jpg", "x": 2200, "y": 1350 },
-  "hahn": { "name": "Hahn Student Center", "description": "The core of student life and resources.", "image": "images/hahn.jpg", "x": 1800, "y": 1500 },
-  "science-hill": { "name": "Science Hill", "description": "Home to lectures, labs, and science departments.", "image": "images/science-hill.jpg", "x": 1600, "y": 700 }
+  "merrill": {
+    "name": "Merrill College",
+    "description": "Known for its international perspective.",
+    "image": "images/merrill.jpg",
+    "x": 2000,
+    "y": 530
+  },
+  "crown": {
+    "name": "Crown College",
+    "description": "High up with views and a science emphasis.",
+    "image": "images/crown.jpg",
+    "x": 1928,
+    "y": 210
+  },
+  "college-9": {
+    "name": "College 9",
+    "description": "Focuses on international and global perspectives.",
+    "image": "images/college9.jpg",
+    "x": 1346,
+    "y": 212
+  },
+  "jrl": {
+    "name": "Jack Baskin Research Labs (JRL)",
+    "description": "Engineering research and innovation space.",
+    "image": "images/jrl.jpg",
+    "x": 1107,
+    "y": 152
+  },
+  "baskin": {
+    "name": "Baskin Engineering",
+    "description": "Home to UCSC's School of Engineering.",
+    "image": "images/baskin.jpg",
+    "x": 846,
+    "y": 140
+  },
+  "kresge": {
+    "name": "Kresge College",
+    "description": "Tree-lined and experimental in design.",
+    "image": "images/kresge.jpg",
+    "x": 287,
+    "y": 193
+  },
+  "porter": {
+    "name": "Porter College",
+    "description": "Creative arts-focused community.",
+    "image": "images/porter.jpg",
+    "x": 217,
+    "y": 934
+  },
+  "rcp": {
+    "name": "Rachel Carson College",
+    "description": "Focuses on sustainability and social justice.",
+    "image": "images/rcp.jpg",
+    "x": 415,
+    "y": 1301
+  },
+  "oakes": {
+    "name": "Oakes College",
+    "description": "Diverse and inclusive social change mission.",
+    "image": "images/oakes.jpg",
+    "x": 850,
+    "y": 1683
+  },
+  "hahn": {
+    "name": "Hahn Student Center",
+    "description": "The hub for student services and support.",
+    "image": "images/hahn.jpg",
+    "x": 1042,
+    "y": 787
+  },
+  "cowell": {
+    "name": "Cowell College",
+    "description": "Liberal arts and community-driven focus.",
+    "image": "images/cowell.jpg",
+    "x": 1859,
+    "y": 1104
+  },
+  "stevenson": {
+    "name": "Stevenson College",
+    "description": "Centered around humanities and discourse.",
+    "image": "images/stevenson.jpg",
+    "x": 2363,
+    "y": 1155
+  },
+  "quarry": {
+    "name": "Quarry Plaza",
+    "description": "Student hub with bookstore, food, and events.",
+    "image": "images/quarry.jpg",
+    "x": 1400,
+    "y": 950
+  }
 }
