@@ -3,91 +3,91 @@
     "name": "Merrill College",
     "description": "Known for its international perspective.",
     "image": "images/merrill.jpg",
-    "x": 2000,
-    "y": 530
+    "x": 633,
+    "y": 170
   },
   "crown": {
     "name": "Crown College",
     "description": "High up with views and a science emphasis.",
     "image": "images/crown.jpg",
-    "x": 1928,
-    "y": 210
+    "x": 598,
+    "y": 80
   },
   "college-9": {
     "name": "College 9",
     "description": "Focuses on international and global perspectives.",
     "image": "images/college9.jpg",
-    "x": 1346,
-    "y": 212
+    "x": 417,
+    "y": 32
   },
   "jrl": {
     "name": "Jack Baskin Research Labs (JRL)",
     "description": "Engineering research and innovation space.",
     "image": "images/jrl.jpg",
-    "x": 1107,
-    "y": 152
+    "x": 353,
+    "y": 38
   },
   "baskin": {
     "name": "Baskin Engineering",
     "description": "Home to UCSC's School of Engineering.",
     "image": "images/baskin.jpg",
-    "x": 846,
-    "y": 140
+    "x": 254,
+    "y": 46
   },
   "kresge": {
     "name": "Kresge College",
     "description": "Tree-lined and experimental in design.",
     "image": "images/kresge.jpg",
-    "x": 287,
-    "y": 193
+    "x": 64,
+    "y": 82
   },
   "porter": {
     "name": "Porter College",
     "description": "Creative arts-focused community.",
     "image": "images/porter.jpg",
-    "x": 217,
-    "y": 934
+    "x": 53,
+    "y": 305
   },
   "rcp": {
     "name": "Rachel Carson College",
     "description": "Focuses on sustainability and social justice.",
     "image": "images/rcp.jpg",
-    "x": 415,
-    "y": 1301
+    "x": 127,
+    "y": 402
   },
   "oakes": {
     "name": "Oakes College",
     "description": "Diverse and inclusive social change mission.",
     "image": "images/oakes.jpg",
-    "x": 850,
-    "y": 1683
+    "x": 277,
+    "y": 535
   },
   "hahn": {
     "name": "Hahn Student Center",
     "description": "The hub for student services and support.",
     "image": "images/hahn.jpg",
-    "x": 1042,
-    "y": 787
+    "x": 329,
+    "y": 265
   },
   "cowell": {
     "name": "Cowell College",
     "description": "Liberal arts and community-driven focus.",
     "image": "images/cowell.jpg",
-    "x": 1859,
-    "y": 1104
+    "x": 587,
+    "y": 332
   },
   "stevenson": {
     "name": "Stevenson College",
     "description": "Centered around humanities and discourse.",
     "image": "images/stevenson.jpg",
-    "x": 2363,
-    "y": 1155
+    "x": 741,
+    "y": 342
   },
   "quarry": {
     "name": "Quarry Plaza",
     "description": "Student hub with bookstore, food, and events.",
     "image": "images/quarry.jpg",
-    "x": 1400,
-    "y": 950
+    "x": 462,
+    "y": 287
   }
 }
