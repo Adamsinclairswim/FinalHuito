@@ -6,6 +6,7 @@
   <title>Explore UCSC</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
   <script src="map.js" defer></script>
 </head>
 <body>
@@ -17,20 +18,17 @@
   <main>
     <div id="map-container">
       <img src="images/campus-map.jpg" id="campus-map" alt="UCSC Map">
-      <div id="player"></div>
+      <img id="player" src="images/slug.png" alt="banana slug">
     </div>
 
     <div id="info-panel">
-  <h2 id="location-name">Walk around the map</h2>
-  <img id="location-image" src="" alt="" style="display: none;">
-  <p id="location-description"></p>
-  
-  <a href="https://forms.gle/SCzBBWD2iLGG5vQe8" target="_blank" id="submit-photo-link">
-    📸 Submit your own photo for a location
-  </a>
-</div>
-
-  </main>
+      <h2 id="location-name">Walk around the map</h2>
+      <img id="location-image" src="" alt="" style="display: none;">
+      <p id="location-description"></p>
+      <a href="https://forms.gle/SCzBBWD2iLGG5vQe8" target="_blank" id="submit-photo-link">
+        📸 Submit your own photo for this location
+      </a>
+    </div>
 
 </body>
 </html>
