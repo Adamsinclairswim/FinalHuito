@@ -33,10 +33,8 @@ header {
 }
 
 #player {
-  width: 20px;
-  height: 20px;
-  background-color: red;
-  border-radius: 50%;
+  width: 60px;
+  height: auto;
   position: absolute;
   top: 400px;
   left: 400px;
