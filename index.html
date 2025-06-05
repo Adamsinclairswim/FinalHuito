@@ -12,23 +12,50 @@
 <body>
 
   <header>
+    <div id = "menu" onclick="openMenu">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
     <h1>Explore UC Santa Cruz</h1>
   </header>
 
   <main>
-    <div id="map-container">
+    <div id="menuContent" class="transparent">
+      <p></br></p>
+      <h3>How to:</h3>
+      <p>
+        Use your arrow keys or WASD to move around the map.
+        When you walk near a landmark, scroll down to see it's name, photo, and description. </br></br>
+        If you would like to contribute and add your own landmark, click on the link at the bottom that says "Submit your own photo for this location."
+        It will take you to a Google Form that you can fill out and submit.
+        When a team member has reviewed your entry and uploaded the data into our database, your entry will show up!
+        It may take a while since our team members are busy, so please be patient if you do not see your entry. 🙏 </br></br>
+        Please note that any incomplete or inappropriate submissions will not pass the review check and thus will not be allowed on the map.
+        Thank you for using our website and we hope you enjoy your stroll around campus!</br></br>
+      </p>
+      <h3>About:</h3>
+      <p>
+        We are a team of students from the Spring 2025 class for ART 101 at UCSC.
+        We thought it would be really cool to make a map of UCSC that people could "walk" around to see all the different amazing spots on campus. </br></br>
+        For a person who's never been on campus, such as prospective students, it's a neat way to see a lot of the different sights that UCSC has to offer without having to be there in person.
+        For a person who has been on campus, it can be a way for them to share their favorite spots on campus or any pretty photos they've taken that they would like to show the world.
+      </p>
+    </div>
+    <div id="mainContent">
+      <div id="map-container">
       <img src="images/campus-map.png" id="campus-map" alt="UCSC Map">
       <img id="player" src="images/slug.png" alt="banana slug">
-    </div>
+      </div>
 
-    <div id="info-panel">
-      <h2 id="location-name">Walk around the map</h2>
-      <img id="location-image" src="" alt="" style="display: none;">
-      <p id="location-description"></p>
-      <a href="https://forms.gle/SCzBBWD2iLGG5vQe8" target="_blank" id="submit-photo-link">
-        📸 Submit your own photo for this location
-      </a>
+      <div id="info-panel">
+        <h2 id="location-name">Walk around the map</h2>
+        <img id="location-image" src="" alt="" style="display: none;">
+        <p id="location-description"></p>
+        <a href="https://forms.gle/SCzBBWD2iLGG5vQe8" target="_blank" id="submit-photo-link">
+          📸 Submit your own photo for this location
+        </a>
+      </div>
     </div>
-
 </body>
 </html>
