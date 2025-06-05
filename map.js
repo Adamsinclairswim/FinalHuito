@@ -98,3 +98,9 @@ function clearLocationDisplay() {
   $("#location-image").hide();
   $("#location-description").text("");
 }
+
+$("#menu").click(function(){
+  const content = document.getElementById("menuContent");
+  content.classList.toggle("transparent");
+  //document.getElementById("menuContent").this.classList.toggle("opaque");
+});

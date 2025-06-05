@@ -12,10 +12,52 @@ body {
   padding-bottom: 50px;
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 header {
   background: #00274C;
   color: white;
   padding: 20px;
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.bar {
+  width: 35px;
+  height: 5px;
+  background-color: #ffffff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#mainContent {
+  justify-self: center;
+}
+
+#menuContent {
+  justify-self: start;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.transparent {
+  opacity: 0;
 }
 
 #map-container {
