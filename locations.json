@@ -92,8 +92,15 @@
   },
 "pool":{
   "name": "Aquatics Center",
-  "description": "The program offers swim lessons year-round for swimmers of all levels and ages in addition to health and safety courses, such as Lifeguarding Training and Water Safety Instructor (WSI)"
+  "description": "The program offers swim lessons year-round for swimmers of all levels and ages in addition to health and safety courses, such as Lifeguarding Training and Water Safety Instructor (WSI)",
   "image": "images/pool.JPG",
+  "x":
+  "y":
+},
+"village":{
+  "name": "The Village",
+  "description": "a unique community for continuing students and new transfer students.",
+  "image": "images/thevillage.jpg",
   "x":
   "y":
 }
