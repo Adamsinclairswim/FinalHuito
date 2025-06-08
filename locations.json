@@ -93,7 +93,7 @@
 "pool":{
   "name": "Aquatics Center",
   "description": "The program offers swim lessons year-round for swimmers of all levels and ages in addition to health and safety courses, such as Lifeguarding Training and Water Safety Instructor (WSI)"
-  "image": images/pool.jpeg",
+  "image": "images/pool.JPG",
   "x":
   "y":
 }
