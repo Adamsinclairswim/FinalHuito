@@ -10,35 +10,46 @@ fetch("locations.json")
     updatePlayerPosition();
   });
 
-// Movement (arrow keys + WASD)
+// Movement (arrow keys + WASD) with boundaries
+const minX = 116;
+const maxX = 912;
+const minY = 17;
+const maxY = 425;
+
 document.addEventListener("keydown", e => {
   const key = e.key.toLowerCase();
   const moveKeys = ["arrowup", "arrowdown", "arrowleft", "arrowright", "w", "a", "s", "d"];
   if (moveKeys.includes(key)) {
     e.preventDefault();
 
+    const step = 20;
+    const playerEl = document.getElementById("player");
+    const playerWidth = playerEl.offsetWidth;
+    const playerHeight = playerEl.offsetHeight;
+
     switch (key) {
       case "arrowup":
       case "w":
-        playerY -= 20;
+        if (playerY - step >= minY) playerY -= step;
         break;
       case "arrowdown":
       case "s":
-        playerY += 20;
+        if (playerY + step + playerHeight <= maxY) playerY += step;
         break;
       case "arrowleft":
       case "a":
-        playerX -= 20;
+        if (playerX - step >= minX) playerX -= step;
         break;
       case "arrowright":
       case "d":
-        playerX += 20;
+        if (playerX + step + playerWidth <= maxX) playerX += step;
         break;
     }
 
     updatePlayerPosition();
   }
 }, { passive: false });
+
 
 function updatePlayerPosition() {
   gsap.to("#player", {
