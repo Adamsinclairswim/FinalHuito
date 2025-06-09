@@ -1,7 +1,7 @@
 let playerX = 400;
 let playerY = 400;
 let locations = {};
-const proximity = 30;
+const proximity = 15;
 
 fetch("locations.json")
   .then(res => res.json())
@@ -45,7 +45,7 @@ document.addEventListener("keydown", e => {
         if (playerX + step + playerWidth <= maxX) playerX += step;
         break;
     }
-
+    // console.log("X:" + playerX + ", Y:" + playerY);
     updatePlayerPosition();
   }
 }, { passive: false });

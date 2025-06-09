@@ -24,22 +24,22 @@
     "name": "Jack Baskin Research Labs (JRL)",
     "description": "Engineering research and innovation space.",
     "image": "images/jrl.jpg",
-    "x": 299,
-    "y": 144
+    "x": 260,
+    "y": 160
   },
   "baskin": {
     "name": "Baskin Engineering",
     "description": "Home to UCSC's School of Engineering.",
     "image": "images/baskin.jpg",
-    "x": 366,
-    "y": 138
+    "x": 270,
+    "y": 110
   },
   "kresge": {
     "name": "Kresge College",
     "description": "Tree-lined and experimental in design.",
     "image": "images/kresge.jpg",
-    "x": 194,
-    "y": 299
+    "x": 200,
+    "y": 250
   },
   "porter": {
     "name": "Porter College",
@@ -66,8 +66,8 @@
     "name": "Hahn Student Center",
     "description": "The hub for student services and support.",
     "image": "images/hahn.jpg",
-    "x": 504,
-    "y": 367
+    "x": 480,
+    "y": 330
   },
   "cowell": {
     "name": "Cowell College",
@@ -87,8 +87,8 @@
     "name": "Quarry Plaza",
     "description": "Student hub with bookstore, food, and events.",
     "image": "images/quarry.jpg",
-    "x": 542,
-    "y": 281
+    "x": 520,
+    "y": 270
   },
   "pool":{
     "name": "Aquatics Center",
@@ -103,5 +103,54 @@
     "image": "images/thevillage.jpg",
     "x": 534,
    "y": 653
+  },
+  "baskinPerk":{
+    "name": "Baskin Perk Coffee Bar",
+    "description": "A Perk's Coffee Bar located in the lobby of the Baskin Engineering building, offering fresh coffee, drinks, pastries, and a selection of grab-and-go meals.",
+    "image": "images/baskinPerk.jpg",
+    "x": 290,
+   "y": 130
+  },
+  "collegeNineDiningHall":{
+    "name": "College Nine Dining Hall",
+    "description": "One of the several dining halls at UCSC, offering continuous dining with a variety of food stations all day, serving as a hub for community events and themed College Nights.",
+    "image": "images/collegeNineDiningHall.jpg",
+    "x": 470,
+   "y": 130
+  },
+  "collegeNineDorms":{
+    "name": "College Nine Dorms",
+    "description": "A set of three residential halls - Hague, Gandhi, and Geneva - with fully furnished rooms, for a community centered around the theme of International and Global Perspectives.",
+    "image": "images/collegeNineDorms.jpg",
+    "x": 490,
+   "y": 110
+  },
+  "ilc":{
+    "name": "International Living Center",
+    "description": "An apartment complex for international students to foster intercultural understanding through shared living experiences, community events, and collaborative programs.",
+    "image": "images/ilc.jpg",
+    "x": 430,
+   "y": 50
+  },
+  "socialSciences1":{
+    "name": "Social Sciences 1",
+    "description": "An academic facility primarily for the Anthropology Department, hosting general classrooms, faculty offices, and laboratories.",
+    "image": "images/socialSciences1.jpg",
+    "x": 470,
+   "y": 90
+  },
+  "socialSciences2":{
+    "name": "Social Sciences 2",
+    "description": "An academic facility primarily for the Psychology Department, hosting general classrooms, faculty offices, and the John R. Lewis College mailroom.",
+    "image": "images/socialSciences2.jpg",
+    "x": 430,
+   "y": 90
+  },
+  "universityCenterCafe":{
+    "name": "University Center Cafe",
+    "description": "A cafe located above the College Nine/John R. Lewis Dining Hall, offering fresh coffee, drinks, pastries, and a selection of grab-and-go meals.",
+    "image": "images/universityCenterCafe.jpg",
+    "x": 450,
+   "y": 130
   }
 }
