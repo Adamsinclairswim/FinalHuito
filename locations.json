@@ -3,22 +3,22 @@
     "name": "Merrill College",
     "description": "Known for its international perspective.",
     "image": "images/merrill.jpg",
-    "x": 695,
-    "y": 203
+    "x": 826,
+    "y": 105
   },
   "crown": {
     "name": "Crown College",
     "description": "High up with views and a science emphasis.",
     "image": "images/crown.jpg",
-    "x": 622,
-    "y": 126
+    "x": 703,
+    "y": 253
   },
   "college-9": {
     "name": "College 9",
     "description": "Focuses on international and global perspectives.",
     "image": "images/college9.jpg",
-    "x": 510,
-    "y": 130
+    "x": 635,
+    "y": 216
   },
   "jrl": {
     "name": "Jack Baskin Research Labs (JRL)",
@@ -31,43 +31,43 @@
     "name": "Baskin Engineering",
     "description": "Home to UCSC's School of Engineering.",
     "image": "images/baskin.jpg",
-    "x": 366,
-    "y": 138
+    "x": 398,
+    "y": 247
   },
   "kresge": {
     "name": "Kresge College",
     "description": "Tree-lined and experimental in design.",
     "image": "images/kresge.jpg",
-    "x": 194,
-    "y": 299
+    "x": 320,
+    "y": 185
   },
   "porter": {
     "name": "Porter College",
     "description": "Creative arts-focused community.",
     "image": "images/porter.jpg",
-    "x": 217,
-    "y": 405
+    "x": 279,
+    "y": 307
   },
   "rcp": {
     "name": "Rachel Carson College",
     "description": "Focuses on sustainability and social justice.",
     "image": "images/rcp.jpg",
-    "x": 234,
-    "y": 542
+    "x": 332,
+    "y": 263
   },
   "oakes": {
     "name": "Oakes College",
     "description": "Diverse and inclusive social change mission.",
     "image": "images/oakes.jpg",
-    "x": 220,
-    "y": 653
+    "x": 284,
+    "y": 351
   },
   "hahn": {
     "name": "Hahn Student Center",
     "description": "The hub for student services and support.",
     "image": "images/hahn.jpg",
-    "x": 504,
-    "y": 367
+    "x": 609,
+    "y": 267
   },
   "cowell": {
     "name": "Cowell College",
@@ -80,28 +80,77 @@
     "name": "Stevenson College",
     "description": "Centered around humanities and discourse.",
     "image": "images/stevenson.jpg",
-    "x": 700,
-    "y": 343
+    "x": 722,
+    "y": 255
   },
   "quarry": {
     "name": "Quarry Plaza",
     "description": "Student hub with bookstore, food, and events.",
     "image": "images/quarry.jpg",
-    "x": 542,
-    "y": 281
+    "x": 649,
+    "y": 203
   },
   "pool":{
     "name": "Aquatics Center",
     "description": "The program offers swim lessons year-round for swimmers of all levels and ages in addition to health and safety courses, such as Lifeguarding Training and Water Safety Instructor (WSI)",
     "image": "images/pool.jpg",
-    "x": 584,
-    "y": 395
+    "x": 710,
+    "y": 318
   },
   "village":{
     "name": "The Village",
-    "description": "a unique community for continuing students and new transfer students.",
+    "description": "A unique community for continuing students and new transfer students.",
     "image": "images/thevillage.jpg",
-    "x": 534,
-   "y": 653
+    "x": 633,
+   "y": 454
+  },
+  "baskinPerk":{
+    "name": "Baskin Perk Coffee Bar",
+    "description": "A Perk's Coffee Bar located in the lobby of the Baskin Engineering building, offering fresh coffee, drinks, pastries, and a selection of grab-and-go meals.",
+    "image": "images/baskinPerk.jpg",
+    "x": 414,
+   "y": 271
+  },
+  "collegeNineDiningHall":{
+    "name": "College Nine Dining Hall",
+    "description": "One of the several dining halls at UCSC, offering continuous dining with a variety of food stations all day, serving as a hub for community events and themed College Nights.",
+    "image": "images/collegeNineDiningHall.jpg",
+    "x": 601,
+   "y": 259
+  },
+  "collegeNineDorms":{
+    "name": "The Village",
+    "description": "A set of three residential halls - Hague, Gandhi, and Geneva - with fully furnished rooms, for a community centered around the theme of International and Global Perspectives.",
+    "image": "images/collegeNineDorms.jpg",
+    "x": 613,
+   "y": 235
+  },
+  "ilc":{
+    "name": "International Living Center",
+    "description": "An apartment complex for international students to foster intercultural understanding through shared living experiences, community events, and collaborative programs.",
+    "image": "images/ilc.jpg",
+    "x": 556,
+   "y": 187
+  },
+  "socialSciences1":{
+    "name": "Social Sciences 1",
+    "description": "An academic facility primarily for the Anthropology Department, hosting general classrooms, faculty offices, and laboratories.",
+    "image": "images/socialSciences1.jpg",
+    "x": 590,
+   "y": 216
+  },
+  "socialSciences2":{
+    "name": "Social Sciences 2",
+    "description": "An academic facility primarily for the Psychology Department, hosting general classrooms, faculty offices, and the John R. Lewis College mailroom.",
+    "image": "images/socialSciences2.jpg",
+    "x": 554,
+   "y": 222
+  },
+  "universityCenterCafe":{
+    "name": "University Center Cafe",
+    "description": "A cafe located above the College Nine/John R. Lewis Dining Hall, offering fresh coffee, drinks, pastries, and a selection of grab-and-go meals.",
+    "image": "images/universityCenterCafe.jpg",
+    "x": 579,
+   "y": 255
   }
 }
