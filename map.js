@@ -11,10 +11,10 @@ fetch("locations.json")
   });
 
 // Movement (arrow keys + WASD) with boundaries
-const minX = 116;
-const maxX = 912;
-const minY = 17;
-const maxY = 425;
+const minX = 0;
+const maxX = 800;
+const minY = 0;
+const maxY = 800;
 
 document.addEventListener("keydown", e => {
   const key = e.key.toLowerCase();
