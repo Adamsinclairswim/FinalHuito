@@ -49,18 +49,95 @@
     "y": 405
   },
   "rcp": {
-    "name": "Rachel Carson College",
-    "description": "Focuses on sustainability and social justice.",
+    "name": "Rachel Carson Housing",
+    "description": "A college that focuses on environmental justice and conservation. Rachel Carson represents the minor sustainability studies, which is the only one out of all ten colleges on campus.",
     "image": "images/rcp.jpg",
-    "x": 234,
-    "y": 542
+    "x": 336,
+    "y": 507
   },
-  "oakes": {
-    "name": "Oakes College",
-    "description": "Diverse and inclusive social change mission.",
-    "image": "images/oakes.jpg",
-    "x": 220,
-    "y": 653
+    "rcp2": {
+    "name": "Rachel Carson Housing",
+    "description": "A college that focuses on environmental justice and conservation. Rachel Carson represents the minor sustainability studies, which is the only one out of all ten colleges on campus.",
+    "image": "images/rcp.jpg",
+    "x": 306,
+    "y": 546
+  },
+     "rcp3": {
+    "name": "Rachel Carson Housing",
+    "description": "A college that focuses on environmental justice and conservation. Rachel Carson represents the minor sustainability studies, which is the only one out of all ten colleges on campus.",
+    "image": "images/rcp.jpg",
+    "x": 350,
+    "y": 554
+  },
+     "rcdininghall": {
+    "name": "Rachel Carson & Oakes Dining Hall",
+    "description": "A shared dining hall between two colleges: Rachel Carson and Oakes. Recently renovated with amazing views of lower campus, as well as one of the only dining halls open late night. With a big kitchen, this dining hall also supplies all freshly baked goods to other locations on campus.",
+    "image": "images/rachelcarsonDiningHall.jpg",
+    "x": 338,
+    "y": 481
+  },
+     "rcacademy": {
+    "name": "Rachel Carson Academy",
+    "description": "A college that focuses on environmental justice and conservation. Rachel Carson holds a small academy atop it's steps, a hotspot for sections and classrooms. The academy also holds numerous faculty offices and registrar.",
+    "image": "images/rcacad.jpg",
+    "x": 365,
+    "y": 490
+  },
+      "fsh": {
+    "name": "Family Student Housing",
+    "description": "A family-centered housing community that supports students balancing family, academic and social needs. It features a number of facilities similiar to a College and regularly host food pantries for struggling students.",
+    "image": "images/fsh.jpg",
+    "x": 215,
+    "y": 399
+    },
+      "fsh2": {
+    "name": "Family Student Housing",
+    "description": "A family-centered housing community that supports students balancing family, academic and social needs. It features a number of facilities similiar to a College and regularly host food pantries for struggling students.",
+    "image": "images/fsh.jpg",
+    "x": 233,
+    "y": 437
+    },
+      "fsh3": {
+    "name": "Family Student Housing",
+    "description": "A family-centered housing community that supports students balancing family, academic and social needs. It features a number of facilities similiar to a College and regularly host food pantries for struggling students.",
+    "image": "images/fsh.jpg",
+    "x": 238,
+    "y": 352
+  },
+  "oakesapt": {
+    "name": "Oakes Appartments",
+    "description": "Diverse and inclusive social change mission. One of the oldest colleges on the very edge of the natural reserves, housing about 330 students yearly.",
+    "image": "images/oakesapt.webp",
+    "x": 337,
+    "y": 588
+  },
+  "oakesapt2": {
+    "name": "Oakes Appartments",
+    "description": "Diverse and inclusive social change mission. One of the oldest colleges on the very edge of the natural reserves, housing about 330 students yearly.",
+    "image": "images/oakesapt.webp",
+    "x": 387,
+    "y": 635
+  },
+  "oakesdorms": {
+    "name": "Oakes Dorms",
+    "description": "Diverse and inclusive social change mission. Oakes dorms houses students with a special mission towards diversity and challenging oppression of students from diverse backgrounds.",
+    "image": "images/oakesdorms.jpg",
+    "x": 322,
+    "y": 624
+  },
+   "oakescafe": {
+    "name": "Oakes Cafe",
+    "description": "A cafe located in the heart of Oakes. Features a diverse menu equipped with breakfast and lunch options, as well as a recently added boba machine in 2025. Popular amongst students for being a comforting lunch spot, as well as a nice patio for studying in the breeze. Next to it holds the Oakes Amphitheater.",
+    "image": "images/oakescafe.png",
+    "x": 402,
+    "y": 620
+  },
+   "oakesacademy": {
+    "name": "Oakes Academy",
+    "description": "Diverse and inclusive social change mission. Oakes Academy is equipped with a number of classrooms and a big lecture hall. They are most well known for their CORE classes, and being in close proximity of other Oakes facilities, making it an ideal option for students. Inside the Academy house the mailroom, office, and a quaint library that looks out into the natural reserves of UCSC. Next to it holds the Oakes Amphitheater.",
+    "image": "images/oakesacad.png",
+    "x": 399,
+    "y": 540
   },
   "hahn": {
     "name": "Hahn Student Center",
