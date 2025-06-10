@@ -181,7 +181,7 @@
     "x": 480,
     "y": 330
   },
-  "cowell dorms": {
+  "cowelldorms": {
     "name": "Cowell Dorms",
     "description": "Liberal arts and community-driven focus.",
     "image": "images/cowell-2.jpg", 
@@ -398,7 +398,7 @@
       "x": 340,
       "y": 530
     },
-   "cowell apartments":{
+   "cowellapartments":{
     "name": "Cowell Apartments",
     "description": "Liberal arts and community-driven focus.",
     "image": "images/cowell apartments.jpg", 
