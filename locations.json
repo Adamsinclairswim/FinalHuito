@@ -3,15 +3,15 @@
     "name": "Merrill College",
     "description": "Known for its international perspective.",
     "image": "images/merrill.jpg",
-    "x": 695,
-    "y": 203
+    "x": 700,
+    "y": 180
   },
   "crown": {
     "name": "Crown College",
     "description": "High up with views and a science emphasis.",
     "image": "images/crown.jpg",
-    "x": 622,
-    "y": 126
+    "x": 580,
+    "y": 120
   },
   "college-9": {
     "name": "College 9",
@@ -45,8 +45,8 @@
     "name": "Porter College",
     "description": "Creative arts-focused community.",
     "image": "images/porter.jpg",
-    "x": 217,
-    "y": 405
+    "x": 140,
+    "y": 380
   },
   "rcp": {
     "name": "Rachel Carson Housing",
@@ -157,8 +157,8 @@
     "name": "Stevenson College",
     "description": "Centered around humanities and discourse.",
     "image": "images/stevenson.jpg",
-    "x": 685,
-    "y": 333
+    "x": 660,
+    "y": 310
   },
   "quarry": {
     "name": "Quarry Plaza",
@@ -178,8 +178,8 @@
     "name": "The Village",
     "description": "a unique community for continuing students and new transfer students.",
     "image": "images/thevillage.jpeg",
-    "x": 514,
-   "y": 653
+    "x": 500,
+   "y": 630
   },
   "baskinPerk":{
     "name": "Baskin Perk Coffee Bar",
