@@ -13,6 +13,13 @@
     "x": 580,
     "y": 120
   },
+   "crowndh": {
+    "name": "Crown/Merrill Dining Hall",
+    "description": "Serving the east side of campus, this dining hall boasts a 20-foot salad bar.",
+    "image": "images/crowndh.jpg",
+    "x": 580,
+    "y": 160
+  },
   "college-9": {
     "name": "College 9",
     "description": "Focuses on international and global perspectives.",
