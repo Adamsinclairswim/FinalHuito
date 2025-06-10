@@ -45,7 +45,7 @@ document.addEventListener("keydown", e => {
         if (playerX + step + playerWidth <= maxX) playerX += step;
         break;
     }
-    console.log("X:" + playerX + ", Y:" + playerY);
+    //console.log("X:" + playerX + ", Y:" + playerY);
     updatePlayerPosition();
   }
 }, { passive: false });
