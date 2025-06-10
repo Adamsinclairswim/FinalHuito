@@ -3,8 +3,8 @@
     "name": "Merrill College",
     "description": "Known for its international perspective.",
     "image": "images/merrill.jpg",
-    "x": 700,
-    "y": 180
+    "x": 690,
+    "y": 170
   },
   "crown": {
     "name": "Crown College",
@@ -23,9 +23,9 @@
   "college-9": {
     "name": "College 9",
     "description": "Focuses on international and global perspectives.",
-    "image": "images/college9.jpg",
-    "x": 510,
-    "y": 130
+    "image": "images/collegeNine.jpg",
+    "x": 500,
+    "y": 90
   },
   "jrl": {
     "name": "John R. Lewis College",
@@ -52,7 +52,7 @@
     "name": "Porter Housing",
     "description": "Creative arts-focused community. Porter features a tight-knit housing community, all about art and social justice.",
     "image": "images/porterhouse.jpg",
-    "x": 180,
+    "x": 190,
     "y": 380
   },
    "porterHousing2": {
@@ -67,14 +67,14 @@
     "description": "A small market located near Porter Dining Hall. Despite the market being small, it features quite a few groceries, a mini cafe shop and ready-to-eat meals on sight.",
     "image": "images/portermarket.jpg",
     "x": 180,
-    "y": 400
+    "y": 410
   },
   "porterdininghallt": {
     "name": "Porter & Kresge Dining Hall",
     "description": "A dining hall shared between Porter and Kresge College. The dining hall itself includes a small stage, where performances are sometimes held while eating. Students are encouraged to excersize their skills on the piano!",
     "image": "images/porterdining.jpg",
-    "x": 160,
-    "y": 400
+    "x": 150,
+    "y": 410
   },
   "porteracademy": {
     "name": "Porter Academy",
@@ -129,8 +129,8 @@
     "name": "Family Student Housing",
     "description": "A family-centered housing community that supports students balancing family, academic and social needs. It features a number of facilities similiar to a College and regularly host food pantries for struggling students.",
     "image": "images/fsh.jpeg",
-    "x": 100,
-    "y": 480
+    "x": 110,
+    "y": 470
     },
       "fsh3": {
     "name": "Family Student Housing",
@@ -181,9 +181,9 @@
     "x": 480,
     "y": 330
   },
-  "cowelldorms": {
-    "name": "Cowell Dorms",
-    "description": "Liberal arts and community-driven focus.",
+  "cowell": {
+    "name": "Cowell",
+    "description": "Known for their theme on liberal arts and community.",
     "image": "images/cowell-2.jpg", 
     "x": 596,
     "y": 332
@@ -192,7 +192,7 @@
     "name": "Stevenson College",
     "description": "Centered around humanities and discourse.",
     "image": "images/stevenson.jpg",
-    "x": 660,
+    "x": 680,
     "y": 310
   },
   "quarry": {
@@ -200,7 +200,7 @@
     "description": "Student hub with bookstore, food, and events.",
     "image": "images/quarry.jpg",
     "x": 520,
-    "y": 270
+    "y": 280
   },
   "pool":{
     "name": "Aquatics Center",
@@ -211,7 +211,7 @@
   },
   "village":{
     "name": "The Village",
-    "description": "a unique community for continuing students and new transfer students.",
+    "description": "A unique community for continuing students and new transfer students.",
     "image": "images/thevillage.jpeg",
     "x": 500,
    "y": 620
@@ -295,7 +295,7 @@
   },
   "recitalHall":{
     "name": "Recital Hall",
-    "description": "Home to UCSC's very own music department. All kinds of music are gathered here, and they work in collaboration with the Barn Theater near by. The music center is part of the cluster of UCSC's art department, equipped with it's very own recording studios and musical venues for special events..",
+    "description": "Home to UCSC's very own music department. All kinds of music are gathered here, and they work in collaboration with the Barn Theater near by. The music center is part of the cluster of UCSC's art department, equipped with it's very own recording studios and musical venues for special events.",
     "image": "images/recitalhall.jpg",
     "x": 360,
    "y": 460
@@ -317,7 +317,7 @@
   "physicalSciencesPerk":{
     "name": "Perk Coffee Bar at Physical Sciences",
     "description": "A cafe located inside the Physical Sciences building, offering fresh coffee, drinks, pastries, and a selection of grab-and-go meals.",
-    "image": "images/sNELibrary.jpg",
+    "image": "images/physicalSciencesPerk.jpg",
     "x": 320,
    "y": 175
   },
@@ -377,6 +377,13 @@
     "x": 170,
    "y": 270
   },
+  "kresgeClassrooms":{
+    "name": "Kresge Classrooms",
+    "description": "Classrooms at Kresge, known for its unique approach to education, emphasizing interdisciplinary studies, social justice, and community engagement.",
+    "image": "images/kresgeClassrooms.png",
+    "x": 170,
+   "y": 240
+  },
   "redwoodGroveApartments":{
     "name": "Redwood Grove Apartments",
     "description": "Redwood-surrounded aparments for incoming transfer students aged 23 and older, as well as for continuing and transfer students seeking trans-inclusive housing, with each shared living space including a kitchen, dining room, and bathroom.",
@@ -398,12 +405,89 @@
       "x": 340,
       "y": 530
     },
-   "cowellapartments":{
+   "cowellApartments":{
     "name": "Cowell Apartments",
-    "description": "Liberal arts and community-driven focus.",
+    "description": "Apartments with a theme of iberal arts and community.",
     "image": "images/cowellapartments.jpg", 
+    "x": 570,
+    "y": 310
+  },
+   "slugStop":{
+    "name": "Slug Stop",
+    "description": "A campus convenience store located in the Quarry Plaza, offering a variety of grab-and-go meals, snacks, beverages, and everyday essentials.",
+    "image": "images/slugStop.jpg", 
     "x": 520,
+    "y": 250
+  },
+   "merrillADorm":{
+    "name": "Merill A Dorm",
+    "description": "One of four residential buildings set amidst redwood trees and a central lawn, aimed to foster cultural exchange and learning.",
+    "image": "images/merrillADorm.jpg", 
+    "x": 590,
+    "y": 100
+  },
+   "merrillDDorm":{
+    "name": "Merill D Dorm",
+    "description": "One of four residential buildings set amidst redwood trees and a central lawn, aimed to foster cultural exchange and learning.",
+    "image": "images/merrillDDorm.png", 
+    "x": 620,
+    "y": 120
+  },
+   "merrillMarket":{
+    "name": "Merill Market",
+    "description": "A campus convenience store located within Merrill College, offering a selection of snacks, beverages, and everyday essentials.",
+    "image": "images/merrillMarket.jpg", 
+    "x": 640,
+    "y": 180
+  },
+   "merrillCollege102":{
+    "name": "Merrill College Room 102",
+    "description": "A classroom at Merrill College that seats up to 114 students and features fixed seating, blackout capabilities, and lecture capture systems.",
+    "image": "images/merrillRoom102.jpg", 
+    "x": 550,
+    "y": 150
+  },
+   "crownLibrary":{
+    "name": "Crown Library",
+    "description": "A library with three floors - the library on the 1st floor, computer lab on the 2nd, and Senior Commons on the 3rd.",
+    "image": "images/crownLibrary.jpg", 
+    "x": 580,
+    "y": 190
+  },
+   "stevensonCoffeeHouse":{
+    "name": "Stevenson Coffee House",
+    "description": "A historic cafe offering a cozy atmosphere for students and faculty to gather, study, and enjoy a variety of beverages and light meals.",
+    "image": "images/stevensonCoffeeHouse.jpg", 
+    "x": 660,
+    "y": 290
+  },
+   "cowellStevensonDiningHall":{
+    "name": "Cowell/Stevenson Dining Hall",
+    "description": "A spacious dining facility situated on the hill above the East Field, offering a variety of meal options with indoor and outdoor seating that provides stunning views of the bay.",
+    "image": "images/cowellStevensonDiningHall.png", 
+    "x": 620,
+    "y": 290
+  },
+   "pageSmithLibrary":{
+    "name": "Page Smith Library",
+    "description": "A cozy, wood-paneled reading and study space located near Cowell Dining Hall, offering a quiet environment, open daily 8:00 a.m - 2:00 a.m.",
+    "image": "images/pageSmithLibrary.jpg", 
+    "x": 600,
     "y": 270
+  },
+   "stevensonUpperQuadHalls":{
+    "name": "Upper Quad Residence Halls",
+    "description": "One of the two sets of four residence halls facing each other, each featuring single, triple, large triple, and quad rooms, fostering a close-knit community that emphasizes self-understanding and active participation.",
+    "image": "images/stevensonUpperQuad.png", 
+    "x": 680,
+    "y": 270
+  },
+   "stevensonApartments":{
+    "name": "Stevenson Apartments",
+    "description": "Spacious, two-story, apartment-style living arrangements designed for upper-division students, featuring shared kitchens, living areas, and bathrooms, with each apartment housing six students in fully furnished room.",
+    "image": "images/stevensonApartments.jpg", 
+    "x": 660,
+    "y": 330
   }
 }
 
