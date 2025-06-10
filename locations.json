@@ -258,12 +258,26 @@
     "x": 400,
    "y": 340
   },
+  "DARC":{
+    "name": "DARC",
+    "description": "A facility all about digital arts, including visual, photography, animation, among others. The studio itself is home to the AGPM, Darkroom major, and the Art & Games club.",
+    "image": "images/DARC.jpg",
+    "x": 360,
+   "y": 440
+  },
+  "recitalHall":{
+    "name": "Recital Hall",
+    "description": "Home to UCSC's very own music department. All kinds of music are gathered here, and they work in collaboration with the Barn Theater near by. The music center is part of the cluster of UCSC's art department, equipped with it's very own recording studios and musical venues for special events..",
+    "image": "images/recitalhall.jpg",
+    "x": 360,
+   "y": 460
+   },
   "theater arts":{
-  "name": "Theater Arts",
-  "description": "A lecture hall located in the Elena Baskin Visual Arts department near art studios as well.",
-  "image": "images/theater arts.jpg",
-  "x": 324,
-  "y": 500
+    "name": "Theater Arts",
+    "description": "A lecture hall located in the Elena Baskin Visual Arts department near art studios as well.",
+    "image": "images/theater arts.jpg",
+    "x": 324,
+    "y": 500
   },
   "sNELibrary":{
     "name": "Science and Engineering Library",
@@ -341,5 +355,20 @@
     "image": "images/redwoodGroveApartments.jpg",
     "x": 230,
    "y": 260
-  }
+   },
+  "A-101studio":{
+    "name": "A-101 Art Studio",
+    "description": "One of the many art studios available to art majors who focus on painting and sculpture.",
+    "image": "images/A-101studio.jpg",
+    "x": 290,
+    "y": 480
+  },
+    "I-200studio":{
+      "name": "I-200 Art Studio",
+      "description": "The art studio that is used for photography and darkroom practices.",
+      "image": "images/I-200studio.jpg",
+      "x": 340,
+      "y": 530
+    }
 }
+
