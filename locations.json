@@ -264,5 +264,54 @@
   "image": "images/theater arts.jpg",
   "x": 324,
   "y": 500
-}
+  },
+  "sNELibrary":{
+    "name": "Science and Engineering Library",
+    "description": "An academic facility offering specialized collections in engineering, physical sciences, and biological sciences, along with resources like the Digital Scholarship Innovation Studio and Video Gaming Lab.",
+    "image": "images/sNELibrary.jpg",
+    "x": 350,
+   "y": 170
+  },
+  "physicalSciencesPerk":{
+    "name": "Perk Coffee Bar at Physical Sciences",
+    "description": "A cafe located inside the Physical Sciences building, offering fresh coffee, drinks, pastries, and a selection of grab-and-go meals.",
+    "image": "images/sNELibrary.jpg",
+    "x": 320,
+   "y": 175
+  },
+  "naturalSciences2":{
+    "name": "Natural Sciences 2",
+    "description": "An academic facility located on Science Hill, housing departments such as Astronomy and Astrophysics, Chemistry and Biochemistry, Environmental Studies, and Physics.",
+    "image": "images/naturalSciences2.jpg",
+    "x": 355,
+   "y": 195
+  },
+  "thimannLabs":{
+    "name": "Thimann Labs",
+    "description": "A research facility located on Science Hill, housing a variety of specialized labs—including electronics, wet, and prototyping workshops—along with meeting spaces, a classroom, and a rooftop greenhouse.",
+    "image": "images/thimannLabs.jpg",
+    "x": 320,
+   "y": 220
+  },
+  "earthAndMarineSciences":{
+    "name": "Earth and Marine Sciences Building",
+    "description": "A research facility located on Science Hill, housing a variety of specialized labs—including electronics, wet, and prototyping workshops—along with meeting spaces, a classroom, and a rooftop greenhouse.",
+    "image": "images/earthAndMarineSciencesBuilding.png",
+    "x": 370,
+   "y": 230
+  },
+  "earthAndMarineSciencesPerk":{
+    "name": "Earth and Marine Sciences Perk Coffee Bar",
+    "description": "A cafe located in the lobby of the Earth & Marine Sciences Building, offering fresh coffee, drinks, pastries, and a selection of grab-and-go meals.",
+    "image": "images/earthAndMarineSciencesPerk.jpg",
+    "x": 390,
+   "y": 250
+  },
+  "classroomUnit":{
+    "name": "Classroom Unit Building",
+    "description": "An academic facility located near Quarry Plaza, housing two general classrooms for large lectures—Classroom Unit 1 with a capacity of 172 seats and Classroom Unit 2 with a capacity of 472 seats.",
+    "image": "images/classroomUnit.jpg",
+    "x": 490,
+   "y": 250
+  }
 }
