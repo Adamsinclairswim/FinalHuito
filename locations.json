@@ -313,5 +313,33 @@
     "image": "images/classroomUnit.jpg",
     "x": 490,
    "y": 250
+  },
+  "graduateStudentHousing":{
+    "name": "Graduate Student Housing",
+    "description": "An apartment-style community housing adjacent to Science Hill, providing four single-occupancy bedrooms per unit, along with shared living spaces including a kitchen, dining area, and bathroom.",
+    "image": "images/graduateStudentHousing.jpg",
+    "x": 210,
+   "y": 170
+  },
+  "owlsNest":{
+    "name": "Owl's Nest",
+    "description": "A eatery located within Kresge College, offering customizable Mediterranean and breakfast bowls, a coffee and smoothie bar, and a variety of grab-and-go items such as bagels, wraps, sandwiches, and salads.",
+    "image": "images/owlsNest.jpg",
+    "x": 170,
+   "y": 210
+  },
+  "kresgeResidenceHall":{
+    "name": "Kresge Residence Halls",
+    "description": "The Kresge Residence Halls where first-year students live in one of the three newly finished residence hall with fully furnished rooms, a large, common community lounge, and laundry facilities.",
+    "image": "images/kresgeResidenceHalls.jpg",
+    "x": 170,
+   "y": 270
+  },
+  "redwoodGroveApartments":{
+    "name": "Redwood Grove Apartments",
+    "description": "Redwood-surrounded aparments for incoming transfer students aged 23 and older, as well as for continuing and transfer students seeking trans-inclusive housing, with each shared living space including a kitchen, dining room, and bathroom.",
+    "image": "images/redwoodGroveApartments.jpg",
+    "x": 230,
+   "y": 260
   }
 }
