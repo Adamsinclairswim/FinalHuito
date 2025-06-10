@@ -86,21 +86,21 @@
       "fsh": {
     "name": "Family Student Housing",
     "description": "A family-centered housing community that supports students balancing family, academic and social needs. It features a number of facilities similiar to a College and regularly host food pantries for struggling students.",
-    "image": "images/fsh.jpg",
+    "image": "images/fsh.jpeg",
     "x": 80,
     "y": 520
     },
       "fsh2": {
     "name": "Family Student Housing",
     "description": "A family-centered housing community that supports students balancing family, academic and social needs. It features a number of facilities similiar to a College and regularly host food pantries for struggling students.",
-    "image": "images/fsh.jpg",
+    "image": "images/fsh.jpeg",
     "x": 100,
     "y": 480
     },
       "fsh3": {
     "name": "Family Student Housing",
     "description": "A family-centered housing community that supports students balancing family, academic and social needs. It features a number of facilities similiar to a College and regularly host food pantries for struggling students.",
-    "image": "images/fsh.jpg",
+    "image": "images/fsh.jpeg",
     "x": 100,
     "y": 560
   },
