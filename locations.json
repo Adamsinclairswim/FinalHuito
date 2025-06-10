@@ -72,7 +72,7 @@
   "cowell": {
     "name": "Cowell College",
     "description": "Liberal arts and community-driven focus.",
-    "image": "images/cowell.jpg",
+    "image": "images/cowell.jpg", "images/cowell2.jpg"
     "x": 596,
     "y": 332
   },
