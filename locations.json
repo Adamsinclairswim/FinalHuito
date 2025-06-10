@@ -157,8 +157,8 @@
     "name": "Stevenson College",
     "description": "Centered around humanities and discourse.",
     "image": "images/stevenson.jpg",
-    "x": 700,
-    "y": 343
+    "x": 685,
+    "y": 333
   },
   "quarry": {
     "name": "Quarry Plaza",
@@ -178,7 +178,7 @@
     "name": "The Village",
     "description": "a unique community for continuing students and new transfer students.",
     "image": "images/thevillage.jpeg",
-    "x": 534,
+    "x": 514,
    "y": 653
   },
   "baskinPerk":{
