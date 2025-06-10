@@ -327,6 +327,13 @@
     "image": "images/classroomUnit.jpg",
     "x": 490,
    "y": 250
-  }
+  },
+"A-101studio":{
+  "name": "A-101 Art Studio",
+  "description": "One of the many art studios available to art majors who focus on painting and sculpture.",
+  "image": "images/A-101studio.jpg",
+  "x": 290,
+  "y": 480
+}
 }
 
