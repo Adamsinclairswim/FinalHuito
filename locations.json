@@ -278,5 +278,12 @@
     "image": "images/earthAndMarineSciencesPerk.jpg",
     "x": 390,
    "y": 250
+  },
+  "classroomUnit":{
+    "name": "Classroom Unit Building",
+    "description": "An academic facility located near Quarry Plaza, housing two general classrooms for large lectures—Classroom Unit 1 with a capacity of 172 seats and Classroom Unit 2 with a capacity of 472 seats.",
+    "image": "images/classroomUnit.jpg",
+    "x": 490,
+   "y": 250
   }
 }
