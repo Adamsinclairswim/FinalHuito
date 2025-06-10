@@ -182,7 +182,7 @@
     "y": 330
   },
   "cowell": {
-    "name": "Cowell College",
+    "name": "Cowell Dorms",
     "description": "Liberal arts and community-driven focus.",
     "image": "images/cowell-2.jpg", 
     "x": 596,
@@ -397,6 +397,13 @@
       "image": "images/I-200studio.jpg",
       "x": 340,
       "y": 530
-    }
+    },
+   "cowell":{
+    "name": "Cowell Apartments",
+    "description": "Liberal arts and community-driven focus.",
+    "image": "images/cowell apartments.jpg", 
+    "x": 600,
+    "y": 400
+  }
 }
 
