@@ -48,12 +48,40 @@
     "x": 200,
     "y": 250
   },
-  "porter": {
-    "name": "Porter College",
-    "description": "Creative arts-focused community.",
-    "image": "images/porter.jpg",
-    "x": 140,
+  "porterHousing": {
+    "name": "Porter Housing",
+    "description": "Creative arts-focused community. Porter features a tight-knit housing community, all about art and social justice.",
+    "image": "images/porterhouse.jpg",
+    "x": 180,
     "y": 380
+  },
+   "porterHousing2": {
+    "name": "Porter Housing",
+    "description": "Creative arts-focused community. Porter features a tight-knit housing community, all about art and social justice.",
+    "image": "images/porterhouse.jpg",
+    "x": 200,
+    "y": 320
+  },
+   "portermarket": {
+    "name": "Porter Market",
+    "description": "A small market located near Porter Dining Hall. Despite the market being small, it features quite a few groceries, a mini cafe shop and ready-to-eat meals on sight.",
+    "image": "images/portermarket.jpg",
+    "x": 180,
+    "y": 400
+  },
+  "porterdininghallt": {
+    "name": "Porter & Kresge Dining Hall",
+    "description": "A dining hall shared between Porter and Kresge College. The dining hall itself includes a small stage, where performances are sometimes held while eating. Students are encouraged to excersize their skills on the piano!",
+    "image": "images/porterdining.jpg",
+    "x": 160,
+    "y": 400
+  },
+  "porteracademy": {
+    "name": "Porter Academy",
+    "description": "A selection of small classrooms located inside Porter College. ",
+    "image": "images/porteracademy.jpg",
+    "x": 200,
+    "y": 420
   },
   "rcp": {
     "name": "Rachel Carson Housing",
