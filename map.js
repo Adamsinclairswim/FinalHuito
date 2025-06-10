@@ -1,8 +1,10 @@
+// Variables
 let playerX = 400;
 let playerY = 400;
 let locations = {};
 const proximity = 15;
 
+// Fetch all locations from json file and store them into locations array
 fetch("locations.json")
   .then(res => res.json())
   .then(data => {
@@ -16,6 +18,7 @@ const maxX = 800;
 const minY = 0;
 const maxY = 800;
 
+// Event listener for arrow or WASD key press
 document.addEventListener("keydown", e => {
   const key = e.key.toLowerCase();
   const moveKeys = ["arrowup", "arrowdown", "arrowleft", "arrowright", "w", "a", "s", "d"];
@@ -26,7 +29,7 @@ document.addEventListener("keydown", e => {
     const playerEl = document.getElementById("player");
     const playerWidth = playerEl.offsetWidth;
     const playerHeight = playerEl.offsetHeight;
-
+    // Change player X, Y coordinate in direction of key press
     switch (key) {
       case "arrowup":
       case "w":
@@ -50,7 +53,7 @@ document.addEventListener("keydown", e => {
   }
 }, { passive: false });
 
-
+// Update player position on map to match new position
 function updatePlayerPosition() {
   gsap.to("#player", {
     top: playerY,
@@ -61,6 +64,7 @@ function updatePlayerPosition() {
   });
 }
 
+// Check if user is in close proximity to a location
 function checkProximity() {
   const mapWidth = 4322;
   const mapHeight = 3251;
@@ -92,6 +96,7 @@ function checkProximity() {
   }
 }
 
+// Show location if user is on a coordinate with an associated entry
 function showLocation(loc) {
   $("#location-name").text(loc.name);
   $("#location-image").attr("src", loc.image).show();
@@ -104,12 +109,14 @@ function showLocation(loc) {
   );
 }
 
+// Clear the display box to be default
 function clearLocationDisplay() {
   $("#location-name").text("Walk around the map");
   $("#location-image").hide();
   $("#location-description").text("");
 }
 
+// Event listener for menu button click
 $("#menu").click(function(){
   const content = document.getElementById("menuContent");
   content.classList.toggle("transparent");
