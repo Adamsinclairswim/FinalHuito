@@ -334,6 +334,13 @@
   "image": "images/A-101studio.jpg",
   "x": 290,
   "y": 480
-}
+},
+  "I-200studio":{
+    "name": "I-200 Art Studio",
+    "description": "The art studio that is used for photography and darkroom practices.",
+    "image": "images/I-200studio.jpg",
+    "x": 340,
+    "y": 530
+  }
 }
 
