@@ -230,8 +230,21 @@
     "x": 450,
    "y": 130
   },
-  
-"theater arts":{
+  "mchenry":{
+    "name": "McHenry Library",
+    "description": "A library surrounded by the natural reserves of UCSC, located at the heart of UCSC. It is UCSC's biggest library, featuring multiple floors of books, study locations, reading nooks and quiet corners. McHenry Library features a number of windows that look out into the tall forest while students enjoy their study sessions.",
+    "image": "images/mchenry.jpg",
+    "x": 420,
+   "y": 360
+  },
+  "globalVillage":{
+    "name": "Global Village Cafe",
+    "description": "A quaint coffee shop located at the entrance of MCHenry Library. Amidst their study sessions, students come here to grab a quick snack and a refresher from their menu of toasts, drinks, and sandwiches.",
+    "image": "images/globalvillage.jpg",
+    "x": 400,
+   "y": 340
+  },
+  "theater arts":{
   "name": "Theater Arts",
   "description": "A lecture hall located in the Elena Baskin Visual Arts department near art studios as well.",
   "image": "images/theater arts.jpg",
